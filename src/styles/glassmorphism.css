@@ -302,7 +302,13 @@
   gap: 24px;
 }
 
-/* Media Queries for full Responsiveness */
+.top-controls-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
 @media (max-width: 1024px) {
   .dashboard-grid {
     grid-template-columns: 1fr;
@@ -318,6 +324,10 @@
 @media (max-width: 768px) {
   .app-layout {
     flex-direction: column;
+  }
+  .top-controls-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
   }
   .app-sidebar {
     width: 100%;

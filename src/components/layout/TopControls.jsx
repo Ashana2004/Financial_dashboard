@@ -5,7 +5,7 @@ import { Settings, User } from 'lucide-react';
 
 export const TopControls = ({ setCurrentView }) => {
   return (
-    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '32px' }}>
+    <div className="top-controls-wrapper" style={{ marginBottom: '32px' }}>
       <div>
         <h1 style={{ fontSize: '2rem', fontWeight: 600, color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.1)', marginBottom: '4px' }}>Good Morning, Intern 👋</h1>
         <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.875rem' }}>Here is your overview panel.</p>
