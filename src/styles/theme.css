@@ -1,0 +1,37 @@
+:root {
+  /* Extremely frosted light glass backgrounds */
+  --glass-bg: rgba(255, 255, 255, 0.45);
+  --glass-bg-strong: rgba(255, 255, 255, 0.65);
+  --glass-bg-hover: rgba(255, 255, 255, 0.55);
+  
+  /* High contrast text on light glass */
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-tertiary: #64748b;
+  
+  /* Accent colors */
+  --accent-blue: #0ea5e9;
+  --accent-purple: #8b5cf6;
+  --accent-pink: #ec4899;
+  --accent-orange: #f97316;
+  --accent-cyan: #06b6d4;
+  
+  /* Status colors (on light glass) */
+  --success-glass: #10b981;
+  --danger-glass: #ef4444;
+  --warning-glass: #f59e0b;
+  
+  /* Borders */
+  --border-glass: rgba(255, 255, 255, 0.6);
+  --border-glass-hover: rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="dark"] {
+  --glass-bg: rgba(15, 23, 42, 0.55);
+  --glass-bg-strong: rgba(15, 23, 42, 0.75);
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.8);
+  --text-tertiary: rgba(255, 255, 255, 0.6);
+  --border-glass: rgba(255, 255, 255, 0.1);
+  --border-glass-hover: rgba(255, 255, 255, 0.2);
+}
